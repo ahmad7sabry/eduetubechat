@@ -1,0 +1,29 @@
+name: edutube
+description: A Flutter-based educational platform using YouTube and Firebase.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  provider: ^6.1.1
+  firebase_core: ^2.25.0
+  firebase_auth: ^4.14.0
+  cloud_firestore: ^4.12.0
+  firebase_storage: ^11.6.0
+  google_fonts: ^6.1.0
+  youtube_player_flutter: ^8.1.1
+  http: ^1.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
